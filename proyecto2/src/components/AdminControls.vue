@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <h1>Admin Controls</h1>
-        <h2>Todo culpa de Dania</h2>
+        
     </div>
 </template>
 
