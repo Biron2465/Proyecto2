@@ -9,7 +9,6 @@ import AdminControls from './components/AdminControls.vue'
 
 
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
 import 'bootstrap-vue-3/dist/bootstrap-vue-3.css';
 
 // Import BootstrapVue3

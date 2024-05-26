@@ -3,7 +3,7 @@
     <div class="container-fluid" id="ContainerNav">
       <div class="logo-container">
         <a class="navbar-brand mx-5" href="/">
-          <img src="./assets/Flock-Logo - Color - Inverted.svg" alt="Logo" class="logo1">
+          <img src="./assets/App/Flock-Logo - Color - Inverted.svg" alt="Logo" class="logo1">
         </a>
       </div>
       <div class="nav-options">
@@ -134,9 +134,9 @@
         <div class="col-md-2">
           <ul class="list-unstyled">
             <li class="icons mb-5">
-              <a href="https://www.linkedin.com" target="_blank"><i class="bi bi-linkedin fs-3 mx-2"></i></a>
-              <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter fs-3 mx-4"></i></a>
-              <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook fs-3 mx-2"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-linkedin fs-3 mx-2"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-twitter fs-3 mx-4"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-facebook fs-3 mx-2"></i></a>
             </li>
             <li class="end-align">
               <a href="#">Terms and Conditions</a><br>
@@ -151,8 +151,8 @@
 </template>
 
 <script>
-import Logo1 from '@/assets/Flock Logo-2.svg';
-import Logo2 from '@/assets/Flock-Logo - Color - Inverted.svg';
+import Logo1 from '@/assets/App/Flock Logo-2.svg';
+import Logo2 from '@/assets/App/Flock-Logo - Color - Inverted.svg';
 
 export default {
   name: 'App',

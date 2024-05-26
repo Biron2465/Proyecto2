@@ -30,7 +30,7 @@
                 <h3 class="card-title">Take control of your team with flexible, multilevel user access and permissions</h3>
               </div>
             </div>
-            <img src="../assets/manage-teams.png" alt="" class="img-fluid my-4">
+            <img src="../assets/AdminControls/manage-teams.png" alt="" class="img-fluid my-4">
             <div>
               <div class="card-body">
                 <h6 class="card-text">You're in full control with Flock—always. We give you the keys to unlock or limit access for everyone in your organization. Managing your team is simple and straightforward, and the benefits go a long way in making sure

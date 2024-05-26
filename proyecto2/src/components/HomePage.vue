@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card card-img">
-            <img src="../assets/new-homepage-left-image.png" alt="Image" class="card-img-top1">
+            <img src="../assets/HomePage/new-homepage-left-image.png" alt="Image" class="card-img-top1">
           </div>
         </div>
         <div class="col-md-4">
@@ -26,7 +26,7 @@
         </div>
         <div class="col-md-4">
           <div class="card card-img">
-            <img src="../assets/new-homepage-right-image.png" alt="Image" class="card-img-top">
+            <img src="../assets/HomePage/new-homepage-right-image.png" alt="Image" class="card-img-top">
           </div>
         </div>
       </div>
@@ -38,23 +38,23 @@
           <div class="col">
             <div class="card-group">
               <div class="card">
-                <img src="../assets/britannia.png" class="card-img-top" alt="Britannia">
+                <img src="../assets/HomePage/britannia.png" class="card-img-top" alt="Britannia">
               </div>
               <div class="card">
-                <img src="../assets/unacademy.png" class="card-img-top" alt="Unacademy">
+                <img src="../assets/HomePage/unacademy.png" class="card-img-top" alt="Unacademy">
               </div>
               <div class="card">
-                <img src="../assets/namecheap-logo.png" class="card-img-top" alt="Namecheap">
+                <img src="../assets/HomePage/namecheap-logo.png" class="card-img-top" alt="Namecheap">
               </div>
 
               <div class="card">
-                <img src="../assets/sodexo.png" class="card-img-top" alt="Sodexo">
+                <img src="../assets/HomePage/sodexo.png" class="card-img-top" alt="Sodexo">
               </div>
               <div class="card">
-                <img src="../assets/macd-logo.png" class="card-img-top" alt="MacD">
+                <img src="../assets/HomePage/macd-logo.png" class="card-img-top" alt="MacD">
               </div>
               <div class="card">
-                <img src="../assets/web-com.png" class="card-img-top" alt="Web.com">
+                <img src="../assets/HomePage/web-com.png" class="card-img-top" alt="Web.com">
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@
           <div class="col-md-7">
             <ul class="list-unstyled">
               <li>
-                <img src="../assets/Communication-2x.png" alt="" class="img-fluid">
+                <img src="../assets/HomePage/Communication-2x.png" alt="" class="img-fluid">
               </li>
             </ul>
           </div>
@@ -174,7 +174,7 @@
           <div class="col-md-7">
             <ul class="list-unstyled">
               <li>
-                <img src="../assets/video-call-2x.png" alt="" class="img-fluid">
+                <img src="../assets/HomePage/video-call-2x.png" alt="" class="img-fluid">
               </li>
             </ul>
           </div>
@@ -230,7 +230,7 @@
           <div class="col-md-7">
             <ul class="list-unstyled">
               <li>
-                <img src="../assets/productivity-2x.png" alt="" class="img-fluid">
+                <img src="../assets/HomePage/productivity-2x.png" alt="" class="img-fluid">
               </li>
             </ul>
           </div>
@@ -248,10 +248,10 @@
                 <h6>Flock helps cross-functional teams stay sharp with a robust suite of shared productivity tools that
                   keep progress on point.</h6>
                 <div class="image-container my-4">
-                  <img src="../assets/notes.svg" alt="" class="img-fluid mx-4">
-                  <img src="../assets/todos.svg" alt="" class="img-fluid mx-4">
-                  <img src="../assets/polls.svg" alt="" class="img-fluid mx-4">
-                  <img src="../assets/reminders.svg" alt="" class="img-fluid mx-4">
+                  <img src="../assets/HomePage/notes.svg" alt="" class="img-fluid mx-4">
+                  <img src="../assets/HomePage/todos.svg" alt="" class="img-fluid mx-4">
+                  <img src="../assets/HomePage/polls.svg" alt="" class="img-fluid mx-4">
+                  <img src="../assets/HomePage/reminders.svg" alt="" class="img-fluid mx-4">
                 </div>
                 <a href="#">Discover productivity tools &gt;&gt;</a>
               </li>
@@ -264,10 +264,10 @@
                 <h6>Bring all your work into Flock by connecting the apps your team uses daily, and say goodbye to
                   context switching and distractions.</h6>
                 <div class="image-container my-4 ">
-                  <img src="../assets/calendar.svg" alt="" class="img-fluid mx-4">
-                  <img src="../assets/zapier.svg" alt="" class="img-fluid mx-4">
-                  <img src="../assets/asana.svg" alt="" class="img-fluid mx-4">
-                  <img src="../assets/zoom.svg" alt="" class="img-fluid mx-4">
+                  <img src="../assets/HomePage/calendar.svg" alt="" class="img-fluid mx-4">
+                  <img src="../assets/HomePage/zapier.svg" alt="" class="img-fluid mx-4">
+                  <img src="../assets/HomePage/asana.svg" alt="" class="img-fluid mx-4">
+                  <img src="../assets/HomePage/zoom.svg" alt="" class="img-fluid mx-4">
                 </div>
                 <a href="#">Discover the app store &gt;&gt;</a>
               </li>
@@ -283,7 +283,7 @@
           <div class="col-md-4 mb-2">
             <div class="card h-100">
               <div class="card-body">
-                <img src="../assets/onboarding.svg" alt="" class="img-fluid mb-5">
+                <img src="../assets/HomePage/onboarding.svg" alt="" class="img-fluid mb-5">
                 <h2><strong>Personalized Onboarding</strong></h2>
                 <h5>Onboard your whole company in just 10 days with personalized onboarding</h5>
                 <a href="#">Read more &gt;&gt;</a>
@@ -293,7 +293,7 @@
           <div class="col-md-4 mb-2">
             <div class="card h-100">
               <div class="card-body">
-                <img src="../assets/privacy.svg" alt="" class="img-fluid mb-5">
+                <img src="../assets/HomePage/privacy.svg" alt="" class="img-fluid mb-5">
                 <h2><strong>Data Security & Privacy</strong></h2>
                 <h5>Keep your work safe and secure with best-in-class admin <br>features</h5>
                 <a href="#">Read more &gt;&gt;</a>
@@ -303,7 +303,7 @@
           <div class="col-md-4 mb-2">
             <div class="card h-100">
               <div class="card-body">
-                <img src="../assets/support.svg" alt="" class="img-fluid mb-5">
+                <img src="../assets/HomePage/support.svg" alt="" class="img-fluid mb-5">
                 <h2><strong>Dedicated 24/7 Support</strong></h2>
                 <h5>Know that Flock has your back <br>24/7 with dedicated customer <br>support</h5>
                 <a href="#">Read more &gt;&gt;</a>
@@ -322,13 +322,13 @@
         </section>
         <div class="row mb-4">
           <div class="col-md-4 card-container" :class="{ active: activeCard === 1 }" @click="changeContent(1)">
-            <img src="../assets/speaker.svg" alt="Imagen 1" class="card-image img-fluid">
+            <img src="../assets/HomePage/speaker.svg" alt="Imagen 1" class="card-image img-fluid">
           </div>
           <div class="col-md-4 card-container" :class="{ active: activeCard === 2 }" @click="changeContent(2)">
-            <img src="../assets/money.svg" alt="Imagen 2" class="card-image img-fluid">
+            <img src="../assets/HomePage/money.svg" alt="Imagen 2" class="card-image img-fluid">
           </div>
           <div class="col-md-4 card-container" :class="{ active: activeCard === 3 }" @click="changeContent(3)">
-            <img src="../assets/gear.svg" alt="Imagen 3" class="card-image img-fluid">
+            <img src="../assets/HomePage/gear.svg" alt="Imagen 3" class="card-image img-fluid">
           </div>
         </div>
         <div class="bar mb-5">
@@ -359,7 +359,7 @@
               </div>
             </div>
             <div class="col-md-7">
-              <img src="../assets/sales-and-marketing-2x.png" class="img-fluid" alt="Sales and Marketing">
+              <img src="../assets/HomePage/sales-and-marketing-2x.png" class="img-fluid" alt="Sales and Marketing">
             </div>
           </div>
           <div class="row" v-if="activeCard === 2">
@@ -384,7 +384,7 @@
               </div>
             </div>
             <div class="col-md-7">
-              <img src="../assets/hr-and-finance-2x.png" class="img-fluid" alt="HR and Finance">
+              <img src="../assets/HomePage/hr-and-finance-2x.png" class="img-fluid" alt="HR and Finance">
             </div>
           </div>
           <div class="row" v-if="activeCard === 3">
@@ -407,7 +407,7 @@
               </div>
             </div>
             <div class="col-md-7">
-              <img src="../assets/engg-and-product-2x.png" class="img-fluid" alt="Engineering and Product">
+              <img src="../assets/HomePage/engg-and-product-2x.png" class="img-fluid" alt="Engineering and Product">
             </div>
           </div>
         </div>
@@ -420,7 +420,7 @@
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="customer-feedback">
-              <img src="../assets/donaePeyper.jpg" alt="Donae Peyper" class="img-fluid rounded-circle mb-5 mt-4">
+              <img src="../assets/HomePage/donaePeyper.jpg" alt="Donae Peyper" class="img-fluid rounded-circle mb-5 mt-4">
               <p>
                 "Flock has helped us tremendously with communication. It has really helped with improving productivity
                 and efficiency within our company."
@@ -431,7 +431,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="customer-feedback">
-              <img src="../assets/hollyHanson.jpg" alt="Holly Hanson" class="img-fluid rounded-circle mb-5 mt-4">
+              <img src="../assets/HomePage/hollyHanson.jpg" alt="Holly Hanson" class="img-fluid rounded-circle mb-5 mt-4">
               <p>
                 "We were communicating via text and email previously. People were missing messages and not getting
                 important information. Flock has revolutionized our communication!"
@@ -442,7 +442,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="customer-feedback">
-              <img src="../assets/hillanKlein.png" alt="Hillan Klein" class="img-fluid rounded-circle mb-5 mt-4">
+              <img src="../assets/HomePage/hillanKlein.png" alt="Hillan Klein" class="img-fluid rounded-circle mb-5 mt-4">
               <p>
                 "Flock is our virtual office - a central hub where everyone can work together, drive through action and,
                 ultimately, succeed as a team."
@@ -461,39 +461,39 @@
           <div class="col-md-4 mb-2">
             <ul class="list-unstyled text-center">
               <li>
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/half-star-4032f163.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/half-star-4032f163.svg" alt="">
                 <p class="mt-3">Leader, Spring 2018</p>
-                <img src="../assets/img1.png" alt="" class="imgs14">
+                <img src="../assets/HomePage/img1.png" alt="" class="imgs14">
               </li>
             </ul>
           </div>
           <div class="col-md-4 mb-2">
             <ul class="list-unstyled text-center">
               <li>
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/empty-star-e41fea34.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/empty-star-e41fea34.svg" alt="">
                 <p class="mt-3">#1 Team Chat Alternative</p>
-                <img src="../assets/img2.png" alt="" class="imgs14">
+                <img src="../assets/HomePage/img2.png" alt="" class="imgs14">
               </li>
             </ul>
           </div>
           <div class="col-md-4 mb-2">
             <ul class="list-unstyled text-center">
               <li>
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/filled-star-ea869b89.svg" alt="">
-                <img src="../assets/half-star-4032f163.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/filled-star-ea869b89.svg" alt="">
+                <img src="../assets/HomePage/half-star-4032f163.svg" alt="">
                 <p class="mt-3">Hot Product - Team Collaboration</p>
-                <img src="../assets/img3.png" alt="" class="imgs14">
+                <img src="../assets/HomePage/img3.png" alt="" class="imgs14">
               </li>
             </ul>
           </div>
