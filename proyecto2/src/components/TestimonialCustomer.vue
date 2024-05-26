@@ -354,6 +354,7 @@
 }
 
 .section1 {
+background-color: #171729;
   padding: 0;
   margin: 0;
   text-align: center;
