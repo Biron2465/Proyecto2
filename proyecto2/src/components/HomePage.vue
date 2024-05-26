@@ -520,11 +520,6 @@
       <p>Get the app for <a href="#">Windows PC, Mac, Linux, Chrome</a></p>
     </section>
     <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-    
-    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-    <!-- ////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-
   </div>
 
 </template>
@@ -870,33 +865,4 @@ export default {
 }
 
 /* /////////////////////////////////////////////////////// */
-
-.section16 {
-  background-color: #0c0e1a;
-  padding: 0;
-  margin: 0;
-}
-
-.section16 .list-unstyled {
-  color: white;
-  text-align: start;
-}
-
-.section16 .list-unstyled a {
-  color: #a3a19f;
-  text-decoration: none;
-}
-
-.section16 .list-unstyled a:hover {
-  color: #0abe51;
-  text-decoration: none;
-}
-
-.section16 .list-unstyled .icons a:hover {
-  color: #007bff;
-}
-
-.section16 .list-unstyled .end-align {
-  text-align: end;
-}
 </style>
