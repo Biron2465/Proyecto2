@@ -589,7 +589,7 @@ export default {
 }
 
 .section1 .card-title {
-  font-size: 48px;
+  font-size: 46px;
 }
 
 .section1 .card-body h6 {

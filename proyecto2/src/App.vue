@@ -203,7 +203,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #navbar {
   background: #171729;
   position: fixed;
