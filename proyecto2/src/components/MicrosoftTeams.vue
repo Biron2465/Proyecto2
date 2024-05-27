@@ -36,7 +36,7 @@
                   Attractive pricing
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -94,7 +94,7 @@
                   Powerful and Smart Channels
                 </button>
               </h2>
-              <div id="collapse2" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -178,7 +178,7 @@
                   Built-in Productivity tools
                 </button>
               </h2>
-              <div id="collapse3" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -324,7 +324,7 @@
                   Well Designed Chat Experience
                 </button>
               </h2>
-              <div id="collapse4" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -417,7 +417,7 @@
                   Enhanced Admin Controls
                 </button>
               </h2>
-              <div id="collapse5" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -507,7 +507,7 @@
                   Better Mobile Experience
                 </button>
               </h2>
-              <div id="collapse6" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse6" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -543,7 +543,8 @@
                         <td colspan="4">Lightweight, storage friendly mobile clients <br>
                           iOS <br>
                           Android</td>
-                        <td style="color: #0abe51;"><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"><br>38.3
+                        <td style="color: #0abe51;"><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt=""
+                            class="py-2"><br>38.3
                           MB <br> 22,1 MB</td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"><br>84.6
                           MB <br> 39 MB</td>
@@ -561,12 +562,13 @@
                   Unlimited Free Guests
                 </button>
               </h2>
-              <div id="collapse7" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse7" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
                       <tr>
-                        <th scope="col" colspan="4" style="color: #0abe51;"> Easily collaborate with vendors and clients</th>
+                        <th scope="col" colspan="4" style="color: #0abe51;"> Easily collaborate with vendors and clients
+                        </th>
                         <th scope="col"><img src="../assets/MicrosoftTeams/Flock Icon.svg" alt="" class="imgTable"></th>
                         <th scope="col"><img src="../assets/MicrosoftTeams/microsoft-teams-974c6f9f.png" alt=""
                             class="imgTable"></th>
@@ -604,7 +606,7 @@
                   On-demand Audio Conferencing
                 </button>
               </h2>
-              <div id="collapse8" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse8" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -642,7 +644,7 @@
                   Deep Integration with OneDrive, GDrive, Dropbox, and Box
                 </button>
               </h2>
-              <div id="collapse9" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse9" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -663,7 +665,8 @@
                         <td>MS Teams has no search option</td>
                       </tr>
                       <tr>
-                        <td colspan="4">Create new docs/ sheets/ presentations from within the client <br>(for OneDrive & GDrive)</td>
+                        <td colspan="4">Create new docs/ sheets/ presentations from within the client <br>(for OneDrive
+                          & GDrive)</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
                         <td></td>
@@ -698,7 +701,7 @@
                   Integration with GitHub and GitLab
                 </button>
               </h2>
-              <div id="collapse11" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse11" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -716,7 +719,7 @@
                         <td colspan="4">Get personal and team notifications</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>	(MS Teams has this only for <br>GitHub)</td>
+                        <td> (MS Teams has this only for <br>GitHub)</td>
                       </tr>
                       <tr>
                         <td colspan="4">Assign, close or merge pull requests from within the client</td>
@@ -742,7 +745,7 @@
                   Integration with Twitter
                 </button>
               </h2>
-              <div id="collapse12" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse12" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -780,7 +783,7 @@
                   Powerful Developer Platform
                 </button>
               </h2>
-              <div id="collapse13" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse13" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -821,6 +824,149 @@
         </div>
       </div>
     </section>
+
+    <section class="section3 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="../assets/MicrosoftTeams/f-v-m-get-work-done-c478e6b3.png" alt="" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <h1>Get work done faster with Flock</h1>
+            <p>With Flock’s built-in productivity tools, you can assign tasks to your team and track their status, run
+              polls for quick feedback, and even set nifty reminders. In Teams, you’ll just have to add external apps.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section4 py-5">
+      <div class="row text-center py-4">
+        <div class="col">
+          <h1>Powerful & Smart Channels</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="customer-feedback d-flex justify-content-center flex-column align-items-center">
+              <img src="../assets/MicrosoftTeams/f-v-m-create-channels-36a4a803.svg" alt="Donae Peyper"
+                class="img-fluid mb-5 mt-4">
+              <h3><strong>Create private channels <br>for focused discussions</strong></h3>
+              <p>
+                Need to work on a new project? Simply create a private channel and invite select teammates. Unlike
+                Teams, where you can’t create private channels.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="customer-feedback d-flex justify-content-center flex-column align-items-center">
+              <img src="../assets/MicrosoftTeams/f-v-m-broadcast-4e2be778.svg" alt="Holly Hanson"
+                class="img-fluid mb-5 mt-4">
+              <h3><strong>Broadcast important <br>updates to everyone</strong></h3>
+              <p>
+                Want to inform everyone about the new company branding? Just share the news via Flock’s one-way
+                announcement channel, instead of sharing the update on multiple channels, one by one.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="customer-feedback d-flex justify-content-center flex-column align-items-center">
+              <img src="../assets/MicrosoftTeams/f-v-m-add-team-93a421da.svg" alt="Hillan Klein"
+                class="img-fluid mb-5 mt-4">
+              <h3><strong>Add team members to <br>channels automatically</strong></h3>
+              <p>
+                Adding people to channels one by one? With Flock’s Smart Channels, you can add everyone from a function
+                or a location to a channel in one go. Even better, every new user gets added automatically.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section5 py-5">
+      <div class="row text-center py-4">
+        <div class="col">
+          <h1>A more thoughtful chat experience</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 ">
+            <div class="customer-feedback d-flex justify-content-center flex-column align-items-center">
+              <img src="../assets/MicrosoftTeams/f-v-m-all-chats-2b5c98cb.svg" alt="Donae Peyper"
+                class="img-fluid mb-5 mt-4">
+              <h3><strong>All your chats <br>
+                  in one place</strong></h3>
+              <p>
+                Switching between 1-1 chats, teams, and channels can leave you confused in Microsoft Teams. Find all
+                your messages in one place with Flock.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="customer-feedback d-flex justify-content-center flex-column align-items-center">
+              <img src="../assets/MicrosoftTeams/f-v-m-chat-scroll-24cc3dbb.svg" alt="Holly Hanson"
+                class="img-fluid mb-5 mt-4">
+              <h3><strong>More chats<br>
+                  per scroll</strong></h3>
+              <p>
+                With Flock, you can see more messages at a glance, so you don’t have to scroll endlessly. Teams’
+                cluttered UI, on the other hand, gives you only 5 messages per scroll.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="customer-feedback d-flex justify-content-center flex-column align-items-center">
+              <img src="../assets/MicrosoftTeams/f-v-m-chat-pin-c43b9c37.svg" alt="Hillan Klein"
+                class="img-fluid mb-5 mt-4">
+              <h3><strong>Pin important stuff <br>
+                  for your team</strong></h3>
+              <p>
+                With Flock, you can pin all types of files and messages, so anyone in that channel can find them instantly. Good luck searching for that document on Microsoft Teams!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section6 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="../assets/MicrosoftTeams/f-v-m-get-more-for-less-6205dd0d.png" alt="" class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <h1>Get more for less!</h1>
+            <p>Why settle for the user limits that come with Microsoft Teams' Free plan when you can bring onboard unlimited users on Flock? Need more features? Upgrade to Flock's Pro plan and pay only for what you need - a great team messenger. Unless, of course you want to pay for that entire bundle of Microsoft software you probably won't use!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section7 py-4 text-center">
+      <h1>Start Your 30-Day Free Trial of Flock</h1>
+      <div class="container mb-3 mt-4">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="row">
+              <div class="col-8">
+                <input type="text" class="form-control" placeholder="Enter your work email" v-model="email" />
+              </div>
+              <div class="col-4">
+                <button class="btn" @click="startTrial">Get Flocking</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p>Get the app for <a href="#">Windows PC, Mac, Linux, Chrome</a></p>
+    </section>
+
   </div>
 </template>
 
@@ -880,8 +1026,50 @@
 
 
 /* //////////////////////////////////////////////////////// */
+
+.section3 .img-responsive {
+  width: 500px;
+  height: 300px;
+}
+
 /* //////////////////////////////////////////////////////// */
+.section4 {
+  background-color: #f9f9f9;
+}
+
+.section4 .customer-feedback img {
+  justify-content: center;
+}
+
 /* //////////////////////////////////////////////////////// */
+.section6{
+  background-color: #f9f9f9;
+}
+
+.section6 .img-responsive {
+  width: 500px;
+  height: 300px;
+}
+
 /* //////////////////////////////////////////////////////// */
+.section7 {
+  padding: 0;
+  margin: 0;
+}
+
+.section7 .btn {
+  background-color: #0abe51;
+  color: #ffff;
+}
+
+.section7 p {
+  text-align: center;
+  margin-left: -190px;
+}
+
+.section7 a {
+  color: black;
+}
+
 /* //////////////////////////////////////////////////////// */
 </style>
