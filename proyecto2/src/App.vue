@@ -3,7 +3,7 @@
     <div class="container-fluid" id="ContainerNav">
       <div class="logo-container">
         <a class="navbar-brand mx-5" href="/">
-          <img src="./assets/Flock-Logo - Color - Inverted.svg" alt="Logo" class="logo1">
+          <img src="./assets/App/Flock-Logo - Color - Inverted.svg" alt="Logo" class="logo1">
         </a>
       </div>
       <div class="nav-options">
@@ -19,7 +19,8 @@
                 WHY FLOCK?
               </a>
               <ul class="dropdown-menu" aria-labelledby="whyFlockDropdown">
-                <li><router-link class="dropdown-item" to="/testimonials" style="color: black;">Testimonials</router-link></li>
+                <li><router-link class="dropdown-item" to="/testimonials"
+                    style="color: black;">Testimonials</router-link></li>
               </ul>
             </li>
             <li class="nav-item mx-2 dropdown">
@@ -28,7 +29,8 @@
                 FEATURES
               </a>
               <ul class="dropdown-menu" aria-labelledby="featuresDropdown ">
-                <li><router-link class="dropdown-item" to="/admin-controls" style="color: black;">Admin Controls</router-link></li>
+                <li><router-link class="dropdown-item" to="/admin-controls" style="color: black;">Admin
+                    Controls</router-link></li>
               </ul>
             </li>
             <li class="nav-item mx-2">
@@ -43,7 +45,8 @@
                 LEARN MORE
               </a>
               <ul class="dropdown-menu" aria-labelledby="learnmoreDropdown">
-                <li><router-link class="dropdown-item" to="/microsoft-teams" style="color: black;">Microsoft Teams</router-link></li>
+                <li><router-link class="dropdown-item" to="/microsoft-teams" style="color: black;">Microsoft
+                    Teams</router-link></li>
               </ul>
             </li>
           </ul>
@@ -57,11 +60,99 @@
     </div>
   </nav>
   <router-view />
+  <section class="section16 py-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <ul class="list-unstyled">
+            <li>
+              <h6 class="mb-3">Product</h6>
+              <a href="#">Features</a><br>
+              <a href="#">Compare</a><br>
+              <a href="#">Customers</a><br>
+              <a href="#">Pricing</a><br>
+              <a href="#">Security</a><br>
+              <a href="#">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>
+              <h6 class="mb-3">FlockOS</h6>
+              <a href="#">Browse Apps</a><br>
+              <a href="#">Build Apps</a><br>
+              <a href="#">API Documentation</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>
+              <h6 class="mb-3">Support</h6>
+              <a href="#">Videos</a><br>
+              <a href="#">Help Center</a><br>
+              <a href="#">User Guide</a><br>
+              <a href="#">Admin Guide</a><br>
+              <a href="#">Contact Sales</a><br>
+              <a href="#">Legal</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>
+              <h6 class="mb-3">Use cases</h6>
+              <a href="#">Engineering</a><br>
+              <a href="#">Sales</a><br>
+              <a href="#">Marketing</a><br>
+              <a href="#">Product</a><br>
+              <a href="#">Human Resource</a><br>
+              <a href="#">Customer Support</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-1">
+          <ul class="list-unstyled">
+            <li>
+              <h6 class="mb-3">Company</h6>
+              <a href="#">Careers</a><br>
+              <a href="#">News</a><br>
+              <a href="#">Business Email</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li>
+              <h6 class="mb-3">Download</h6>
+              <a href="#">Desktop App</a><br>
+              <a href="#">Mobile App</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <ul class="list-unstyled">
+            <li class="icons mb-5">
+              <a href="#" target="_blank"><i class="bi bi-linkedin fs-3 mx-2"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-twitter fs-3 mx-4"></i></a>
+              <a href="#" target="_blank"><i class="bi bi-facebook fs-3 mx-2"></i></a>
+            </li>
+            <li class="end-align">
+              <a href="#">Terms and Conditions</a><br>
+              <a href="#">Privacy Policy</a><br>
+              <p>Flock FZ-LLC © 2020</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
-import Logo1 from '@/assets/Flock Logo-2.svg';
-import Logo2 from '@/assets/Flock-Logo - Color - Inverted.svg';
+import Logo1 from '@/assets/App/Flock Logo-2.svg';
+import Logo2 from '@/assets/App/Flock-Logo - Color - Inverted.svg';
 
 export default {
   name: 'App',
@@ -112,8 +203,7 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 #navbar {
   background: #171729;
   position: fixed;
@@ -151,5 +241,34 @@ export default {
   border: 1px solid white;
   background-color: transparent;
   color: white;
+}
+
+.section16 {
+  background-color: #0c0e1a;
+  padding: 0;
+  margin: 0;
+}
+
+.section16 .list-unstyled {
+  color: white;
+  text-align: start;
+}
+
+.section16 .list-unstyled a {
+  color: #a3a19f;
+  text-decoration: none;
+}
+
+.section16 .list-unstyled a:hover {
+  color: #0abe51;
+  text-decoration: none;
+}
+
+.section16 .list-unstyled .icons a:hover {
+  color: #007bff;
+}
+
+.section16 .list-unstyled .end-align {
+  text-align: end;
 }
 </style>
