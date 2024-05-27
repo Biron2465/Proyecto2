@@ -52,8 +52,12 @@
                     <tbody>
                       <tr>
                         <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
+                        <td>
+                          <h5 style="color: #0abe51;">$4.5</h5>
+                        </td>
+                        <td>
+                          <h5>$5-12.5</h5>
+                        </td>
                         <td>Business Essentials - $5 <br>
                           Business Premium - $12.50</td>
                       </tr>
@@ -85,12 +89,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
                   Powerful and Smart Channels
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse2" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -105,24 +109,62 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Create private channels - Channels only visible to existing channel members</td>
+                        <td colspan="4">Create private channels - Channels only visible to existing <br>channel members
+                        </td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
                         <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Create public channels only discoverable by specific locations, functions, etc.</td>
+                        <td colspan="4">Create public channels only discoverable by specific <br>locations, functions,
+                          etc.</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
                         <td></td>
                       </tr>
-                     
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">One-way announcement channels (e.g. HR sending <br>announcements to all
+                          employees in Boston)</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td>Can send announcements only <br> to specific teams, not to <br>everyone</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Auto-join channels - add users from a specific location/ <br>function to
+                          channels automatically (e.g. designers in NY office) </td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Mute a channel</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Add/ remove users to a channel</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td>Users can only be removed from <br>a team</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">User can leave a channel without leaving the team</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Restrict users from leaving an important channel</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Set a channel avatar</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -131,12 +173,158 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                  Built-in Productivity tools
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse3" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" colspan="2" style="color: #0abe51;">Shared To-Dos</th>
+                        <th scope="col" colspan="2"></th>
+                        <th scope="col"><img src="../assets/MicrosoftTeams/Flock Icon.svg" alt="" class="imgTable"></th>
+                        <th scope="col"><img src="../assets/MicrosoftTeams/microsoft-teams-974c6f9f.png" alt=""
+                            class="imgTable"></th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td colspan="4">Built-in To-dos app</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td> MS Teams requires integration <br>with "Planner"</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Create, browse, edit and assign tasks via the sidebar</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td> MS Teams opens a separate tab</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Notifications when tasks are added, edited, or deleted</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Bot sends reminder on due date</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td>No in-app reminder</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Export to CSV</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="7" style="color: #0abe51;">Reminders</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Built-in reminders app</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td>MS Teams requires integration <br>with "Planner"</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Set reminders for yourself, a user, or an entire channel</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td>MS Teams only allows user <br>reminders</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Set recurring reminders</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Snooze reminders</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="7" style="color: #0abe51;">Opinion Polls</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Built-in Polls app</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td>Teams relies on integration with <br>"Polly"</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Forward a poll to other channels to increase audience</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Run image-based polls</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Select multiple options in a poll</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="7" style="color: #0abe51;">Code snippet sharing</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Share and download code snippets</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Auto indent and formatting</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="7" style="color: #0abe51;">Mailing lists</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Easy to remember mail ID</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Add users from outside the organization to the list</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Subscribe and unsubscribe from lists</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                  Well Designed Chat Experience
+                </button>
+              </h2>
+              <div id="collapse4" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -151,32 +339,71 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Easy access to all unread chats (Recent, unread chats bubble up to the top)</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td> Team / channel chats do not <br>bubble up in MS Teams</td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">One view of all conversations (direct chats and channels) </td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td>direct chats and channels are in <br>separate tabs</td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Optimal use of screen space: users can see more messages at a glance</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td>Maximum messages/scroll: Flock <br>- 25, MS Teams - 5</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Pin important messages or files for everyone</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Advanced message search: search by keyword, sender, and conversation</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Last seen status for a user</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td> </td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Read receipts: know which users read a specific message</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td> </td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Customize display density (Comfortable, Cozy, Compact) according to user
+                          preferences</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td> </td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Inline message replies</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td>Creates a separate thread by <br>default</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">1-click access to productivity tools (todos, mailing list, polls, <br>etc.)</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Dedicated section for muted chats</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -185,12 +412,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                  Enhanced Admin Controls
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse5" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -205,32 +432,68 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Dedicated Admin Panel</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td>MS Teams: Admin settings <br>spread across multiple panels</td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Team signup permissions (Invite only / Public)</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td>MS Teams: no 'public to all' <br>option</td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Automatically add domain users to the team</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Add other domain users as full users</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Specify who can share files (All / None / Specific users)</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Check team file storage</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Hide users from accessing other users' private info (email, mobile)</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="7" style="color: #0abe51;">Custom fields for richer user profiles</td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Create, edit or delete custom fields (e.g. function, role, <br>location,
+                          manager, etc.)</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Mandatory custom fields</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Parent-child relationships between custom fields</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -239,12 +502,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                  Better Mobile Experience
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse6" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -259,32 +522,32 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Dedicated tab for apps, with easy app store access</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Invite team members</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Enable DND mode</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Lightweight, storage friendly mobile clients <br>
+                          iOS <br>
+                          Android</td>
+                        <td style="color: #0abe51;"><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"><br>38.3
+                          MB <br> 22,1 MB</td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"><br>84.6
+                          MB <br> 39 MB</td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -293,12 +556,55 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse7" aria-expanded="true" aria-controls="collapse7">
+                  Unlimited Free Guests
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse7" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col" colspan="4" style="color: #0abe51;"> Easily collaborate with vendors and clients</th>
+                        <th scope="col"><img src="../assets/MicrosoftTeams/Flock Icon.svg" alt="" class="imgTable"></th>
+                        <th scope="col"><img src="../assets/MicrosoftTeams/microsoft-teams-974c6f9f.png" alt=""
+                            class="imgTable"></th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td colspan="4">Allow guests to add apps</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Upgrade guest to team member</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Set guest account validity reminder</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse8" aria-expanded="true" aria-controls="collapse8">
+                  On-demand Audio Conferencing
+                </button>
+              </h2>
+              <div id="collapse8" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -313,32 +619,16 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">1-click audio conferencing: set up dial-in bridges from within <br>the app</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Automatically share dial-in details with participants</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -347,12 +637,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                  Deep Integration with OneDrive, GDrive, Dropbox, and Box
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse9" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -367,32 +657,34 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Search and Browse drive from within the client</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td>MS Teams has no search option</td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Create new docs/ sheets/ presentations from within the client <br>(for OneDrive & GDrive)</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Share files and grant read / edit access without leaving the <br>client</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">Connect multiple OneDrive or Google Drive accounts</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td colspan="4">View all Drive files shared in a channel</td>
+                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
+                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -401,12 +693,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse11" aria-expanded="true" aria-controls="collapse11">
+                  Integration with GitHub and GitLab
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse11" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -421,32 +713,22 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Get personal and team notifications</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td>	(MS Teams has this only for <br>GitHub)</td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Assign, close or merge pull requests from within the client</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Browse entire Github repo from within the client</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -455,12 +737,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                  Integration with Twitter
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse12" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -475,32 +757,16 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Receive your DMs</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Forward/ like/ retweet/ reply from within Flock</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
@@ -509,12 +775,12 @@
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapse13" aria-expanded="true" aria-controls="collapse13">
+                  Powerful Developer Platform
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapse13" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <table class="table">
                     <thead>
@@ -529,194 +795,22 @@
                     </thead>
                     <tbody>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Add sidebar / modal windows</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Add buttons on the Flock interface</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                       <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
+                        <td colspan="4">Add slash commands</td>
                         <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
                         <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col" colspan="2"></th>
-                        <th scope="col" colspan="2"></th>
-                        <th scope="col"><img src="../assets/MicrosoftTeams/Flock Icon.svg" alt="" class="imgTable"></th>
-                        <th scope="col"><img src="../assets/MicrosoftTeams/microsoft-teams-974c6f9f.png" alt=""
-                            class="imgTable"></th>
-                        <th scope="col"></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col" colspan="2"></th>
-                        <th scope="col" colspan="2"></th>
-                        <th scope="col"><img src="../assets/MicrosoftTeams/Flock Icon.svg" alt="" class="imgTable"></th>
-                        <th scope="col"><img src="../assets/MicrosoftTeams/microsoft-teams-974c6f9f.png" alt=""
-                            class="imgTable"></th>
-                        <th scope="col"></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                  aria-expanded="true" aria-controls="collapseOne">
-                  Attractive pricing
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col" colspan="2"></th>
-                        <th scope="col" colspan="2"></th>
-                        <th scope="col"><img src="../assets/MicrosoftTeams/Flock Icon.svg" alt="" class="imgTable"></th>
-                        <th scope="col"><img src="../assets/MicrosoftTeams/microsoft-teams-974c6f9f.png" alt=""
-                            class="imgTable"></th>
-                        <th scope="col"></th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><h5 style="color: #0abe51;">$4.5</h5></td>
-                        <td><h5>$5-12.5</h5></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
-                      </tr>
-                      <tr>
-                        <td colspan="4">Cheaper plans (per user/month)</td>
-                        <td><img src="../assets/MicrosoftTeams/right-tick-5447a8a0-2.png" alt="" class="py-2"></td>
-                        <td><img src="../assets/MicrosoftTeams/wrong-icon-b7177ce1.png" alt="" class="py-2"></td>
-                        <td>Business Essentials - $5 <br>
-                          Business Premium - $12.50</td>
+                        <td></td>
                       </tr>
                     </tbody>
                   </table>
